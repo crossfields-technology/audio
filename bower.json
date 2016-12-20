@@ -1,6 +1,6 @@
 {
   "name": "crossfields-audio",
-  "description": "Audio background player",
+  "description": "Add audio to the background of your page.",
   "main": "crossfields-audio.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0"
