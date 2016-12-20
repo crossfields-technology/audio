@@ -12,7 +12,7 @@
     <link rel="import" href="../crossfields-audio.html">
   </head>
   <body>
-    <test-fixture id="basic">
+    <test-fixture id="crossfields-audio-fixture">
       <template>
         <crossfields-audio></crossfields-audio>
       </template>
@@ -20,9 +20,14 @@
 
     <script>
       suite('crossfields-audio', function() {
+        var crossfieldsAudio;
+
+        setup(function() {
+          crossfieldsAudio = fixture('crossfields-audio-fixture');
+        });
+
         test('instantiating the element works', function() {
-          var element = fixture('basic');
-          assert.equal(element.is, 'crossfields-audio');
+          assert.equal(crossfieldsAudio.is, 'crossfields-audio');
         });
       });
     </script>
