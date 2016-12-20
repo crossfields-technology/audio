@@ -4,7 +4,6 @@ Polymer({
   properties: {
     audioFiles: {
       type: Array,
-      notify: true,
       observer: 'playSound'
     },
 
@@ -49,7 +48,7 @@ Polymer({
     });
 
     sound.once('load', function() {
-        sound.play();
+      sound.play();
     });
 
     if(this.fadeOut) {

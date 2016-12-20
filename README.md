@@ -5,7 +5,7 @@ The `crossfields-audio` element exposes audio to the background on any page once
 ```html
 <crossfields-audio
     auto-play
-    audio-file="['./audio/somefile.mp3', './audio/somefile.webm']"
+    audio-files="['./audio/somefile.mp3', './audio/somefile.webm']"
     fade-out="false"
     loop="false"
     volume="0.5"
@@ -20,7 +20,7 @@ clip.
 
 ## Howlerjs
 
-Utilising [howlerjs](https://github.com/goldfire/howler.js) for an audio library.
+Utilising [howler.js](https://github.com/goldfire/howler.js) for an audio library.
 
 ## Running Tests
 
