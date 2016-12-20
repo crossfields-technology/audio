@@ -1,21 +1,9 @@
-<link rel="import" href="../polymer/polymer.html">
-
-<!--
-`crossfields-audio`
-Audio background player
-
-@demo demo/index.html
--->
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<script src="../../bower_components/howler/dist/howler.js"></script>
 
 <dom-module id="crossfields-audio">
   <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
-    <h2>Hello [[prop1]]</h2>
+    <slot></slot>
   </template>
-
   <script src="crossfields-audio.js"></script>
 </dom-module>
