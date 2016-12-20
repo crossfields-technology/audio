@@ -1,6 +1,22 @@
 # \<crossfields-audio\>
 
-Audio background player
+The `crossfields-audio` element exposes audio to the background on any page once and audio file is supplied.
+
+```html
+<crossfields-audio
+    auto-play
+    audio-file="['./audio/somefile.mp3', './audio/somefile.webm']"
+    fade-out="false"
+    loop="false"
+    volume="0.5"
+    ></crossfields-audio>
+```
+
+With `auto-play` set to `true`, the element will automatically begin playing on
+load as long a file is specified.
+
+With `fade-out` set to `true` it the audio will fade out at the end of the audio
+clip.
 
 ## Install the Polymer-CLI
 

@@ -2,7 +2,7 @@ Polymer({
   is: 'crossfields-audio',
 
   properties: {
-    file: {
+    audioFiles: {
       type: Array,
       notify: true,
       observer: 'playSound'
@@ -23,22 +23,17 @@ Polymer({
       value: 0.5
     },
 
-    waitForLoad: {
-      type: Boolean,
-      value: false
-    },
-
     fadeOut: {
       type: Boolean,
       value: false
     }
   },
 
-  playSound: function(file) {
+  playSound: function(audioFiles) {
     var self = this;
     var sound = new Howl(
       {
-        src: file,
+        src: audioFiles,
         autoplay: self.autoplay,
         loop: self.loop,
         volume: self.volume
@@ -52,10 +47,6 @@ Polymer({
     sound.on('play', function() {
       self.fire('audio-started');
     });
-
-    if(!this.waitForLoad) {
-      sound.play();
-    }
 
     sound.once('load', function() {
         sound.play();
