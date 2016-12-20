@@ -18,6 +18,10 @@ load as long a file is specified.
 With `fade-out` set to `true` it the audio will fade out at the end of the audio
 clip.
 
+## Howlerjs
+
+Utilising howlerjs (https://github.com/goldfire/howler.js) for an audio library.
+
 ## Running Tests
 
 ```

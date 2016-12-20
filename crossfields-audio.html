@@ -1,9 +1,16 @@
-<link rel="import" href="./bower_components/polymer/polymer.html">
-<script src="./bower_components/howler/dist/howler.js"></script>
+<link rel="import" href="../polymer/polymer.html">
+<script src="../howler/dist/howler.js"></script>
 
 <dom-module id="crossfields-audio">
   <template>
-    <slot>This is a demo</slot>
+    <style>
+      :host > * {
+        display: block;
+      }
+    </style>
+    <div>
+      <p>This is a demo</p>
+    </div>
   </template>
   <script src="crossfields-audio.js"></script>
 </dom-module>
