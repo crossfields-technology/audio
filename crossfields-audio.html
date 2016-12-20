@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`crossfields-audio`
+Audio background player
+
+@demo demo/index.html 
+-->
+
+<dom-module id="crossfields-audio">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'crossfields-audio',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'crossfields-audio',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
