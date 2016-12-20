@@ -20,7 +20,7 @@ clip.
 
 ## Howlerjs
 
-Utilising howlerjs (https://github.com/goldfire/howler.js) for an audio library.
+Utilising [howlerjs](https://github.com/goldfire/howler.js) for an audio library.
 
 ## Running Tests
 
