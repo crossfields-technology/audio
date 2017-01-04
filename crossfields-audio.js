@@ -51,7 +51,7 @@ Polymer({
       sound.play();
     });
 
-    if(this.fadeOut) {
+    if(self.fadeOut) {
       sound.fade(1, 0, 1000);
     }
   }
