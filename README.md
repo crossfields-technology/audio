@@ -6,7 +6,7 @@ The `crossfields-audio` element exposes audio to the background on any page once
 <crossfields-audio audio-files="{}" text-speech="{}"></crossfields-audio>
 ```
 
-```Javascript
+```javascript
 audio-files="{
   autoplay: true,
   files: ['./audio/somefile.mp3', './audio/somefile.webm'],
@@ -16,7 +16,7 @@ audio-files="{
 }"
 ```
 
-```Javascript
+```javascript
 text-speech="{
   api-key: '<key>',
   text: 'This is a test',
