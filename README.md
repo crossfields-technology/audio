@@ -12,6 +12,16 @@ The `crossfields-audio` element exposes audio to the background on any page once
     ></crossfields-audio>
 ```
 
+```
+audio-files="{
+  autoplay: true,
+  files: ['./audio/somefile.mp3', './audio/somefile.webm'],
+  fade-out: false,
+  loop: false,
+  volume: 0.5
+}"
+```
+
 With `auto-play` set to `true`, the element will automatically begin playing on
 load as long a file is specified.
 
