@@ -7,21 +7,21 @@ The `crossfields-audio` element exposes audio to the background on any page once
 ```
 
 ```javascript
-audio-files="{
+audio-files={
   autoplay: true,
   files: ['./audio/somefile.mp3', './audio/somefile.webm'],
   fade-out: false,
   loop: false,
   volume: 0.5
-}"
+}
 ```
 
 ```javascript
-text-speech="{
+text-speech={
   api-key: '<key>',
   text: 'This is a test',
   language: 'en-au'
-}"
+}
 ```
 
 With `auto-play` set to `true`, the element will automatically begin playing on
