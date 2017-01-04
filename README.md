@@ -22,6 +22,14 @@ audio-files="{
 }"
 ```
 
+```
+text-speech="{
+  api-key: '<key>',
+  text: 'This is a test',
+  language: 'en-au'
+}"
+```
+
 With `auto-play` set to `true`, the element will automatically begin playing on
 load as long a file is specified.
 
