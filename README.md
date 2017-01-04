@@ -3,13 +3,7 @@
 The `crossfields-audio` element exposes audio to the background on any page once and audio file is supplied.
 
 ```html
-<crossfields-audio
-    auto-play
-    audio-files="['./audio/somefile.mp3', './audio/somefile.webm']"
-    fade-out="false"
-    loop="false"
-    volume="0.5"
-    ></crossfields-audio>
+<crossfields-audio audio-files="{}" text-speech="{}"></crossfields-audio>
 ```
 
 ```
